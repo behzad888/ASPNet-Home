@@ -17,7 +17,8 @@
         "Microsoft.Framework.Logging.Console": "1.0.0-*"
     },
     "commands": {
-        "web": "Microsoft.AspNet.Server.Kestrel --server.urls http://localhost:5004"
+        "web.old": "Microsoft.AspNet.Server.Kestrel --server.urls http://localhost:5004",
+        "web": "HelloMvc --server=Microsoft.AspNetCore.Server.Kestrel --server.urls http://*:5004"
     },
     "frameworks": {
          "dnx451": { },
