@@ -27,7 +27,7 @@ if ! _dnvmsetup_has "curl"; then
 fi
 
 if [ -z "$DNVM_SOURCE" ]; then
-    DNVM_SOURCE="https://raw.githubusercontent.com/aspnet/Home/dev/dnvm.sh"
+    DNVM_SOURCE="https://raw.githubusercontent.com/behzad888/ASPNet-Home/dev/dnvm.sh"
 fi
 
 # Downloading to $DNVM_DIR
